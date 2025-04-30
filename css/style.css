@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Calc-Body{
+    background:linear-gradient(to bottom,#3D8D7A ,#B3D8A8);
+    height: 100vh;
+}
+.Calculator{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFEAD3;
+    position: relative;
+}
+button{
+    border:1px solid white;
+    height: 100px;
+    background:linear-gradient(to bottom,#FBFFE4 ,#A3D1C6);
+    font-size: 30px ;
+    transition: .5s;
+}
+button:hover{
+    background:linear-gradient(to bottom,#3e504c ,#4f5047);
+    color: white;
+}
+ .Back_button{
+    
+    height: 200px;
+} 
+
+input{
+    border:none;
+    height: 200px;
+    font-size: 55px;
+    cursor: default;
+    outline: none;
+    color:black;
+    border-bottom: 1px solid black;
+}
